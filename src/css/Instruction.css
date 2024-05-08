@@ -1,0 +1,61 @@
+@media only screen and (max-width:450px){
+    .YouAreIn{
+        font-size: 40px !important;
+    }
+    .instru-heading{
+        font-size: 28px !important;
+    }
+}
+
+.ins_bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("../img/insBg.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+
+:root {
+    --animate-duration: 1s;
+  }
+  
+  /* Only this element will take half the time to finish */
+  .my_element {
+    --animate-duration: 3s !important;
+  }
+
+  
+.swal2-styled.swal2-cancel{
+    margin-top: -18px !important;
+    width:70px !important;
+    font-size: 14px !important;
+    margin-left:10px !important
+}
+.game_start_quit_quiz_btn2{
+    color:white;
+    background:transparent;
+    border:1px solid white;
+    padding:10px 20px;
+    border-radius:4px !important;
+    font-size:20px
+}
+@media only screen and (max-width:768px){
+    .game_start_quit_quiz_btn2{
+        color:white !important;
+        background:transparent !important;
+        border:1px solid white !important;
+        border-radius: 4px !important;
+        padding:6px 10px !important;
+        font-size:12px !important
+    }    
+   
+}
+
+.connection_lost_background_image{
+    background-image: url("../img/connection-lost.jpg");
+    background-size: cover;
+}

@@ -1,0 +1,115 @@
+.MuiList-root {
+    height:350px;
+    width: 380px;
+}
+@media only screen and (max-width:"500px"){
+    .MuiList-root {
+        height:100% !important;
+        width: 100% !important;
+    }
+}
+.avatar_div {
+    margin: 8px!important;
+}
+.avatar_top:hover{
+   border: none;
+   outline: none;
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root .MuiOutlinedInput-notchedOutline {
+    border-color: #dee2e6 !important;
+}
+.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon{
+    color:white !important
+}
+.css-fvipm8.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+}
+.css-igs3ac{
+    border-color:white !important
+}
+.css-1636szt {
+    color:white !important
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+}
+
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root{
+    background-color: none !important;
+    
+}
+.menu_item:hover{
+    border:none;
+    outline: none;
+    box-shadow: none;
+    background-color: none !important;
+}
+.css-r8u8y9 {
+    list-style: none;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    position: relative;
+    outline: 0px;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.swal2-popup {
+    display: none;
+    position: relative;
+    box-sizing: border-box;
+    grid-template-columns: minmax(0, 100%);
+    width: 280px !important;
+    /* height:200px !important; */
+    /* padding: 0 0 1.25em; */
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #545454;
+    font-family: inherit;
+    /* font-size: 1rem; */
+}
+.swal2-icon.swal2-warning {
+    border-color: #facea8;
+    margin:6px auto !important;
+    color: #f8bb86;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.swal2-title {
+    font-size: 20px !important;
+    margin-top: -130px !important;
+}
+.swal2-icon .swal2-icon-content {
+    font-size: 23px !important;
+}
+.swal2-html-container{
+    margin: 8px !important;
+}
+.swal2-styled.swal2-confirm {
+    height:40px !important;
+    margin-top:-20px !important;
+    padding:4px 10px !important;
+    font-size: 15px !important;
+}
+.css-p0rm37{
+    left:120px !important
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    left:120px !important
+}
+@media only screen and (max-width:411px){
+    .MuiList-root{
+        width:auto !important;
+    }
+}
+.css-r8u8y9{
+    justify-content: center !important;
+    align-items: center !important;
+}

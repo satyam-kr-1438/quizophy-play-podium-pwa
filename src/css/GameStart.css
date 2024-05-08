@@ -1,0 +1,115 @@
+/* .blueVilot{
+    background-color: blueviolet !important;
+  }
+  .tomato{
+      background-color: tomato !important;
+  
+  }
+  .teal{
+      background-color: teal !important;
+  }
+  .indigo{
+      background-color: indigo !important;
+  } */
+  
+.red{
+    background-color: #4d3f63 !important;
+}
+.green{
+    background-color: #449f8a !important;
+}
+.blue{
+    background-color: #aa81a1 !important;
+}
+.blue-fad{
+    background-color: #e1ac6a !important;
+}
+.blueVilot{
+    background-color: #1ba7ca !important;
+}
+.tomato{
+    background-color: #f08aa2 !important;
+}
+.teal{
+    background-color: #6a75b3 !important;
+}
+.indigo{
+    background-color: #b95a56 !important;
+}
+.question_display_style:nth-child(even){
+    display: flex;
+    justify-content: start; 
+    
+}
+.question_display_style:nth-child(odd){
+    display: flex;
+    justify-content: end; 
+}
+.option_container_main{
+    margin: 30px 10px;
+    display:flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100px !important;
+}
+
+.game_start_circular_progress{
+    width:100px !important
+}
+.game_start_quit_quiz_btn{
+    color:black;
+    background:transparent;
+    border:1px solid black;
+    padding:10px 20px;
+    border-radius:4px !important;
+    font-size:20px
+}
+@media only screen and (max-width:768px){
+    .question_display_style:nth-child(even){
+        display: flex;
+        justify-content: space-evenly; 
+        
+    }
+    .question_display_style:nth-child(odd){
+        display: flex;
+        justify-content: space-evenly; 
+    }
+    .option_container_main{
+        margin:0px 10px;
+    }
+    .game_start_circular_progress{
+        width:85px !important
+    }
+    .game_start_quit_quiz_btn{
+        color:black;
+        background:transparent;
+        border:1px solid black;
+        padding:6px 10px !important;
+        border-radius:4px !important;
+        font-size:12px !important
+    }
+    .toggle-sound{
+        height:45px !important;
+        width:45px !important
+    }
+    
+   
+}
+
+@media only screen and (max-width:500px){
+    .option_container_main{
+        margin: 0px
+    }
+    .timer_container{
+        margin: 20px 0 20px 0 !important;
+    }
+    .mobile-devices-question-answer{
+        position:  relative !important;
+        top:50px !important;
+    }
+}
+
+/* .question_display_style:nth-child(odd){
+    margin-right:100px !important
+} */
+

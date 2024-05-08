@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body,html,h1,h2,h3,h4,h5,h6,p,span,pre,textarea,input,div{
+    font-family: 'Lexend Deca', sans-serif !important ;
+    /* color:rgb(37 99 235/var(--tw-bg-opacity)) */
+}
+body {
+  margin: 0;
+  /* font-family: Roboto,Noto Sans JP,sans-serif; */
+
+}
+

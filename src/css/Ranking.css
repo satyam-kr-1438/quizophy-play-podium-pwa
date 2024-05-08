@@ -1,0 +1,26 @@
+.main_container{
+    width:100vw !important;
+    height:100vh !important;
+}
+
+.home_btn_navigate{
+    position:fixed;
+    width:58px !important;
+    height:45px !important;
+    border-radius: 4px !important;
+    top:20px !important;
+    left: 20px !important;
+    color:none !important;
+    outline: none !important;
+    background-color: transparent !important;
+    border:1px solid #fff !important;
+}
+/* @media only screen and (max-width:1400px){
+    .navigate_btn{
+        position:relative;
+        top:-270px;
+
+        width:100% !important;
+        margin-right:30px !important;
+    }
+} */
