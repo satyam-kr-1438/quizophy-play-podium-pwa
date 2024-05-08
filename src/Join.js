@@ -402,6 +402,7 @@ const Join = () => {
         <div className="col-12 q_form" style={{backgroundColor: "rgba(0,0,0,0.7)",maxHeight:q_formHeight}}>
             <form autoComplete='off'>
               <input style={{padding:"15px 0px 15px 20px"}} className="form-control" type="text" value={quizPin} name="quizpin" onChange={e => setQuizPin(e.target.value)} placeholder="Enter Join code" aria-label="default input example" />
+              <p>Hello My Name Is Satyam Kumar</p>
               <input style={{padding:"15px 0px 15px 20px"}} className="form-control" type="text" value={name} name="nickname" maxLength={20} onChange={e => {
                   setName(e.target.value) 
               }} placeholder="Nickname" aria-label="default input example" />
